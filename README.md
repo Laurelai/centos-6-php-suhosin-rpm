@@ -19,6 +19,9 @@ Easy mode: Install my precompiled binaries.
 wget http://laurelai.info/security/repo/RPM-GPG-KEY-Laurelai
 
 rpm --import RPM-GPG-KEY-Laurelai
+
 wget -O /etc/yum.repos.d/centos-security.repo http://laurelai.info/security/repo/centos-security.repo
+
 yum -y update
+
 yum install php-suhosin
